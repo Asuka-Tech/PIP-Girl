@@ -16,7 +16,7 @@ util.ensure_package_is_installed("lua/auto-updater")
 local auto_updater = require("auto-updater")
 if not async_http.have_access() then util.toast("U need to allow internet access to download all resources the script needs to work and receive cutting edge updates. <3"); return end
 local auto_update_config = {
-    source_url="https://raw.githubusercontent.com/LeaLangley/PIP-Girl/main/PIP-Girl.pluto",
+    source_url="https://raw.githubusercontent.com/Asuka-Tech/PIP-Girl/main/PIP-Girl.pluto",
     script_relpath=SCRIPT_RELPATH,
     verify_file_begins_with="--",
     check_interval=0,
@@ -24,25 +24,25 @@ local auto_update_config = {
     dependencies={
         {
             name="Asuka_Libiary",
-            source_url="https://raw.githubusercontent.com/LeaLangley/Asuka_Library/main/Asuka_Lib.pluto",
+            source_url="https://raw.githubusercontent.com/Asuka-Tech/Asuka_Library/main/Asuka_Lib_SIT.pluto",
             script_relpath="lib/Asuka_Library/Asuka_Lib.pluto",
             check_interval=0,
         },
         {
             name="logo",
-            source_url="https://raw.githubusercontent.com/LeaLangley/PIP-Girl/main/resources/PIP-Girl/logo.png",
+            source_url="https://raw.githubusercontent.com/Asuka-Tech/PIP-Girl/main/resources/PIP-Girl/logo.png",
             script_relpath="resources/PIP Girl/logo.png",
             check_interval=13666,
         },
         {
             name="blacklist",
-            source_url="https://raw.githubusercontent.com/LeaLangley/PIP-Girl/main/resources/PIP-Girl/Blacklist.json",
+            source_url="https://raw.githubusercontent.com/Asuka-Tech/PIP-Girl/main/resources/PIP-Girl/Blacklist.json",
             script_relpath="resources/PIP Girl/Blacklist.json",
             check_interval=0,
         },
         {
             name="read_me.txt",
-            source_url="https://raw.githubusercontent.com/LeaLangley/PIP-Girl/main/resources/PIP-Girl/Export/read_me.txt",
+            source_url="https://raw.githubusercontent.com/Asuka-Tech/PIP-Girl/main/resources/PIP-Girl/Export/read_me.txt",
             script_relpath="resources/PIP Girl/Export/read_me.txt",
             check_interval=13666,
         },
@@ -4839,13 +4839,13 @@ store_post_session_code_via_webhook = menu.toggle_loop(SessionInvite, "Post Sess
                         color = 0x8b0000,
                         author = {
                             name = "Session Overview",
-                            icon_url = "https://raw.githubusercontent.com/LeaLangley/PIP-Girl/main/resources/PIP-Girl/logo.png"
+                            icon_url = "https://raw.githubusercontent.com/Asuka-Tech/PIP-Girl/main/resources/PIP-Girl/logo.png"
                         }
                     }
                     local body = {
                         embeds = { embed },
                         username = "PIP Girl",
-                        avatar_url = "https://raw.githubusercontent.com/LeaLangley/PIP-Girl/main/resources/PIP-Girl/logo.png"
+                        avatar_url = "https://raw.githubusercontent.com/Asuka-Tech/PIP-Girl/main/resources/PIP-Girl/logo.png"
                     }
                     local body_json_status, body_json = pcall(json.encode, body)
                     local function on_success(body, header_fields, status_code)
@@ -5771,7 +5771,7 @@ menu.action(Credits, "And you!", {""}, "Ty for using my lua, with blocking out k
     notify("Ty for using my lua, with blocking out knowen bad modder we might be able to change something, at least for the ppl around us..")
 end)
 
-menu.hyperlink(Settings, "PIP Girl's GIT", "https://github.com/LeaLangley/PIP-Girl", "")
+menu.hyperlink(Settings, "PIP Girl's GIT", "https://github.com/Asuka-Tech/PIP-Girl", "")
 
 --menu.hyperlink(Settings, "Support me", "https://ko-fi.com/asuka666", "")
 
