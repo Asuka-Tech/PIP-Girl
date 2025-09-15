@@ -10,7 +10,7 @@ Advertisers may be included, but are not the main target.
 Session Crawlers or Snoopers may be mistakenly added, as their intentions are often unclear. We try not to add them intentionally, since we have come across great projects built by them.
 
 # Download via powershell!
-open powershell , paste in the code , it will download into stands scripts folder if everything went good. credits to Maddy
+open powershell , paste in the code , it will download into stands scripts folder if everything went good. credits and based on something by Maddy
 ```powershell
 Invoke-WebRequest -Uri "https://raw.githubusercontent.com/Asuka-Tech/PIP-Girl/main/PIP-Girl.pluto" -OutFile "$env:APPDATA\Stand\Lua Scripts\PIP-Girl.pluto"; If ([System.IO.File]::Exists("$env:APPDATA\Stand\Lua Scripts\PIP-Girl.pluto")) {"`r`nInstalled Successfully`r`n"} Else {"`r`nInstall Failed, Try Installing Manually`r`n"}
 ```
