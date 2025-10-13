@@ -15,7 +15,7 @@ open powershell , paste in the code , it will download into stands scripts folde
 Invoke-WebRequest -Uri "https://raw.githubusercontent.com/Asuka-Tech/PIP-Girl/main/PIP-Girl.pluto" -OutFile "$env:APPDATA\Stand\Lua Scripts\PIP-Girl.pluto"; If ([System.IO.File]::Exists("$env:APPDATA\Stand\Lua Scripts\PIP-Girl.pluto")) {"`r`nInstalled Successfully`r`n"} Else {"`r`nInstall Failed, Try Installing Manually`r`n"}
 ```
 
-# [Or Download as file!](https://github.com/Asuka-Tech/PIP-Girl/releases/download/LatestAutoInstall/PIP-Girl.pluto)
+# Or [Download](https://github.com/Asuka-Tech/PIP-Girl/releases/download/LatestAutoInstall/PIP-Girl.pluto) as file!
 
 # Licensed under [CC BY-NC 4.0](https://www.tldrlegal.com/license/creative-commons-attribution-noncommercial-4-0-international-cc-by-nc-4-0)
 
