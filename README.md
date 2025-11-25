@@ -1,13 +1,11 @@
 # PIP-Girl script for Stand Mod Menu.
-PIP-Girl main focus is blocking known bad modder, bad modder are who crash/kick/break sessions on purpose and some other good reasons.
-But besides that, it offers alot of Quality of life features for a range of preference.
-
-# Internal Blacklist
-The blacklist is created and moderated by multiple persons.
-The reason for players to be added depends on the strength and frequency of their actions.
-This may not be limited to just session crash/kick/break -ing, and could also include excessive session stalking or other ill intentions.
-Advertisers may be included, but are not the main target.
-Session Crawlers or Snoopers may be mistakenly added, as their intentions are often unclear. We try not to add them intentionally, since we have come across great projects built by them.
+It offers alot of Quality of life features for a range of preference.
+- Bussines aka. PIP Girl (Legit like QoL & more)
+- Vehicle (Asuka-Tech, FSD & more!)
+- Combat (Custom and better Thermal, Silent BST, BSD detection & more)
+- World (Blocking of common Griefer assets, Smart Clearn traffic, Clean-up Session of spawned objects & more)
+- Clothings (Smart outfit lock, have pilot and biker helemet with outfit lock & more)
+- And More! lol, all things are highly customizable :D
 
 # Download via powershell!
 open powershell , paste in the code , it will download into stands scripts folder if everything went good. credits and based on something by Maddy
